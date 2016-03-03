@@ -10,17 +10,34 @@ Include jquery and juPlus plugin into your page.
 ```
 
 ##Usage
+```
 $.juplus({
   options : value,
   ...
 })
-
+```
 ###Options
 | Option        | Description           |
 | ------------- |:-------------:|
+| id     | required option, your google+ client id  |
 | email     | the email of the user, the email will be set as a value of the given input  |
 | firstname     | the firstname of the user, the firstname will be set as a value of the given input  |
 | lastname     | the lastname of the user, the lastname will be set as a value of the given input  |
 | fullname     | the fullname of the user, the fullname will be set as a value of the given input  |
 | imageUrl     | the profile image url of the user, the url will be set as a source attribute  |
 | googleId     | the googleId of the user, the googleId will be set as a value of the given input  |
+##Example
+###Html
+```
+<input type="text" id="email"/>
+<img src="" id="myimage"/>
+```
+###
+```
+$.juplus({
+  id: 'mygoogleclientid',
+  email : '#email',
+  imageUrl: '#myimage'
+})
+```
+
