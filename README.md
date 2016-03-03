@@ -32,7 +32,7 @@ $.juplus({
 <input type="text" id="email"/>
 <img src="" id="myimage"/>
 ```
-###
+###JS
 ```
 $.juplus({
   id: 'mygoogleclientid',
@@ -40,4 +40,4 @@ $.juplus({
   imageUrl: '#myimage'
 })
 ```
-
+> Note: Make sure to include jquery first before the juplus plugin
