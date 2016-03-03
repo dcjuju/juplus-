@@ -27,6 +27,7 @@ $.juplus({
 | imageUrl     | the profile image url of the user, the url will be set as a source attribute  |
 | googleId     | the googleId of the user, the googleId will be set as a value of the given input  |
 ##Example
+> Note: id option is required it will throw an error if you didnt specify it
 ###Html
 ```
 <input type="text" id="email"/>
@@ -40,4 +41,4 @@ $.juplus({
   imageUrl: '#myimage'
 })
 ```
-> Note: Make sure to include jquery first before the juplus plugin
+> Make sure to include jquery first before the juplus plugin
