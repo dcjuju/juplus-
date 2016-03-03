@@ -28,7 +28,9 @@ $.juplus({
 | googleId     | the googleId of the user, the googleId will be set as a value of the given input  |
 ##Example
 ###Html
->id option is required it will throw an error if you didnt specify it.
+
+> id option is required it will throw an error if you didnt specify it.
+
 ```
 <input type="text" id="email"/>
 <img src="" id="myimage"/>
